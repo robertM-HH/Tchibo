@@ -15,8 +15,6 @@ Project is created with:
 * Python version: 3.11
 * Selenium version: 4.8.0
 * Webdriver-manager version: 3.8.5
-
-* Ament library version: 999
 	
 ## Setup
 To run this project, install it locally using pip:
