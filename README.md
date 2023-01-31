@@ -25,4 +25,6 @@ $ pip install selenium
 $ pip install webdriver_manager
 $ pip install chromedriver-binary-auto
 $ pip install html-testRunner 
+$ pip install requests
+$ pip install json
 ```
