@@ -6,9 +6,11 @@
 * [Setup](#setup)
 
 ## General info
-This script uses the unittest module to create a test case for searching for a product on the Tchibo website.
+This script uses the unittest module to create a test case for searching for a product on the Tchibo website using Page Object Model (POM).
 The test case uses the Selenium webdriver to open the Tchibo website, interact with elements on the website using the HomePage and ProductPage classes,
 and asserts that the correct product is displayed on the product page. The test case uses the HtmlTestRunner to generate a report of the test execution.
+
+For the API call tests, Python with Requests and Json is being used to test the API call to the specified endpoint.
 	
 ## Technologies
 Project is created with:
