@@ -9,8 +9,8 @@ class TestDeleteProduct:
         """
         Initializes the URL endpoint for the API call.
         """
-        self.url = "https://api.predic8.de:443/shop/products/"
-    # Test to get all products   
+        self.url = "https://api.predic8.de:443/shop/products/"       
+    # Test to delete a product   
     def test_delete_product(self, id):
         """
         This method makes an API call to delete a product and checks if the response status code is 200.

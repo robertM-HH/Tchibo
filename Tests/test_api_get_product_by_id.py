@@ -9,9 +9,8 @@ class TestGetProductById:
         """
         Initializes the URL endpoint for the API call.
         """
-        self.url = "https://api.predic8.de:443/shop/products/"
-     
-    # Test to get all products   
+        self.url = "https://api.predic8.de:443/shop/products/"    
+    # Test to get a product by id   
     def test_get_product_by_id(self, id):
         """
         This method makes an API call to get a product by its ID and checks if the response status code is 200.

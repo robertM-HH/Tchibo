@@ -9,9 +9,8 @@ class TestPostProduct:
         """
         Initializes the URL endpoint for the API call.
         """
-        self.url = "https://api.predic8.de:443/shop/products/"
-     
-    # Test to get all products   
+        self.url = "https://api.predic8.de:443/shop/products/" 
+    # Test to post a product   
     def test_post_product(self, data):
         """
         This method makes an API call to add a new product and checks if the response status code is 201.

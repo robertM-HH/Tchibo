@@ -9,9 +9,8 @@ class TestUpdateProduct:
         """
         Initializes the URL endpoint for the API call.
         """
-        self.url = "https://api.predic8.de:443/shop/products/"
-     
-    # Test to get all products   
+        self.url = "https://api.predic8.de:443/shop/products/" 
+    # Test to update a product   
     def test_update_product(self, id, data):
         """
         This method makes an API call to update a product and checks if the response status code is 200.

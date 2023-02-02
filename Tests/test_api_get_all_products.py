@@ -9,8 +9,7 @@ class TestGetAllProducts:
         """
         Initializes the URL endpoint for the API call.
         """
-        self.url = "https://api.predic8.de:443/shop/products/"
-     
+        self.url = "https://api.predic8.de:443/shop/products/"    
     # Test to get all products   
     def test_get_all_products(self):
         """
